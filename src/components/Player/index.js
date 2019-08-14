@@ -20,8 +20,6 @@ import BackwardIcon from "../../assets/images/backward.svg";
 
 import PlayIcon from "../../assets/images/play.svg";
 
-import PauseIcon from "../../assets/images/pause.svg";
-
 import ForwardIcon from "../../assets/images/forward.svg";
 
 import RepeatIcon from "../../assets/images/repeat.svg";
