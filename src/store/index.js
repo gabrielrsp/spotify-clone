@@ -9,7 +9,6 @@ const composeEnhancers = compose;
 
 const middlewares = [];
 
-//const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
 middlewares.push(sagaMiddleware);
 
 const createAppropriateStore =
