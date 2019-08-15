@@ -5,17 +5,11 @@ import sagas from "./sagas";
 import reducers from "./ducks";
 
 const sagaMiddleware = createSagaMiddleware();
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const composeEnhancers = compose;
 
 const middlewares = [];
 
-const sagaMonitor =
-  process.env.NODE_ENV === "development"
-    ? console.tron.createSagaMonitor()
-    : null;
-
 //const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
-
 middlewares.push(sagaMiddleware);
 
 const createAppropriateStore =
